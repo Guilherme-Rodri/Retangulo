@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Users\20185448\ds2m-a\retangulo\.metadata\.plugins\org.eclipse.jdt.core
+469735348.index
