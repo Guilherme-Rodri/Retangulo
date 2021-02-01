@@ -90,6 +90,7 @@ public class FrameRetangulo {
 				
 				labelArea.setText("Área" + String.valueOf(r1.calcularArea()));
 				labelPerimetro.setText("Perímetro:" + String.valueOf(r1.calcularPerimetro()));
+				
 			}
 		});
 	}

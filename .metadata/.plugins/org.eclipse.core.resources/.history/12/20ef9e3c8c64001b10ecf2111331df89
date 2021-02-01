@@ -1,18 +1,11 @@
 package br.com.empresa.gui;
 
 import java.awt.TextField;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 import javax.swing.JTextField;
-
-import br.com.empresa.model.Retangulo;
 
 public class FrameRetangulo {
 
@@ -78,19 +71,5 @@ public class FrameRetangulo {
 		
 		
 		tela.setVisible(true);
-		
-		//**** Ouvintes de ações /eventos
-		btnCalcular.addActionListener(new ActionListener() {
-			
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Retangulo r1 = new Retangulo();
-				r1.setAltura(Double.parseDouble(textAltura.getText()));
-				r1.setBase(Double.parseDouble(textBase.getText()));
-				
-				labelArea.setText("Área" + String.valueOf(r1.calcularArea()));
-				labelPerimetro.setText("Perímetro:" + String.valueOf(r1.calcularPerimetro()));
-			}
-		});
 	}
 }
